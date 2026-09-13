@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Café Paraíso Coffee-Bar en Banes, Holguín. Café, sabor y momentos especiales.">
+  <title>Café Paraíso | Coffee-Bar</title>
+
+  <link rel="stylesheet" href="includes/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#inicio" class="logo">
+      <span>☕</span>
+      <div>
+        <strong>Café Paraíso</strong>
+        <small>COFFEE-BAR</small>
+      </div>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menú">
+      ☰
+    </button>
+
+    <nav class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Sobre nosotros</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#ubicacion">Ubicación</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PRESENTACIÓN -->
+    <section id="inicio" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Banes, Holguín · Cuba</p>
+
+        <h1>
+          Un pequeño paraíso
+          para tus mejores momentos.
+        </h1>
+
+        <p>
+          Descubre un espacio donde el aroma del café,
+          la calidez y los buenos momentos se encuentran.
+        </p>
+
+        <div class="buttons">
+          <a href="#nosotros" class="btn primary">Conócenos</a>
+          <a href="#ubicacion" class="btn secondary">Cómo llegar</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/imageCafe.jpg"
+             alt="Fachada frontal de Café Paraíso Coffee-Bar">
+      </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS: SEGUNDA IMAGEN -->
+    <section id="nosotros" class="about section">
+
+      <div class="about-image">
+        <img src="assets/imageCafe2.jpg"
+             alt="Interior y ambiente de Café Paraíso">
+      </div>
+
+      <div class="about-text">
+        <p class="eyebrow">Sobre nosotros</p>
+
+        <h2>
+          Donde el café
+          se convierte en una experiencia.
+        </h2>
+
+        <p>
+          En Café Paraíso creemos que los mejores
+          recuerdos nacen de los pequeños detalles:
+          una buena taza, una conversación agradable
+          y un ambiente que te hace sentir en casa.
+        </p>
+
+        <p>
+          Un rincón especial en Banes para compartir,
+          disfrutar y crear momentos inolvidables.
+        </p>
+
+        <a href="#experiencia" class="text-link">
+          Descubre nuestra esencia →
+        </a>
+      </div>
+
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="experience section">
+
+      <div class="section-title">
+        <p class="eyebrow">Nuestra esencia</p>
+        <h2>Momentos para saborear.</h2>
+      </div>
+
+      <div class="cards">
+
+        <article class="card">
+          <span>☕</span>
+          <h3>Café con carácter</h3>
+          <p>
+            Una pausa con aroma, calidez
+            y personalidad.
+          </p>
+        </article>
+
+        <article class="card">
+          <span>✨</span>
+          <h3>Ambiente especial</h3>
+          <p>
+            Un espacio acogedor para compartir
+            y desconectar.
+          </p>
+        </article>
+
+        <article class="card">
+          <span>🤎</span>
+          <h3>Atención cercana</h3>
+          <p>
+            Detalles sencillos que hacen
+            que quieras regresar.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="location section">
+
+      <div class="location-text">
+        <p class="eyebrow">Visítanos</p>
+
+        <h2>Estamos en Banes.</h2>
+
+        <p>
+          Café Paraíso Coffee-Bar,
+          Banes, Holguín, Cuba.
+        </p>
+
+        <p class="note">
+          La ubicación del mapa es aproximada.
+          Puedes sustituirla por la dirección exacta
+          del café.
+        </p>
+
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Para%C3%ADso+Banes+Holgu%C3%ADn+Cuba"
+          target="_blank"
+          rel="noopener"
+          class="btn primary">
+          Abrir Google Maps ↗
+        </a>
+      </div>
+
+      <div class="map">
+        <iframe
+          title="Mapa de Banes, Holguín, Cuba"
+          src="https://www.google.com/maps?q=Banes%2C%20Holgu%C3%ADn%2C%20Cuba&output=embed"
+          loading="lazy">
+        </iframe>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Café Paraíso</strong>
+      <p>Un lugar para disfrutar lo sencillo.</p>
+    </div>
+
+    <p>
+      © <span id="year"></span> Café Paraíso.
+    </p>
+  </footer>
+
+  <script src="includes/script.js"></script>
+</body>
+</html>
